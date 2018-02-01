@@ -3,4 +3,58 @@ h1{
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 20px;
     width: 20%;
+    text-align: center;
+    margin-left: 50px;
+}
+h2{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    margin: 0, auto;
+}
+img{
+    padding: 20px;
+    float: left;
+}
+p{
+    text-align: wrap;
+}
+#nav{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border-color: #000000;
+    clear: both;
+    border: 2px;
+    width: 100%;
+    z-index: -10;
+    text-align: left;
+}
+#header{
+    z-index: 10;
+}
+#body{
+    float: left;
+    background-color: #eeee;
+    width: 50%;
+    border-color: #000000;
+    border: 10px;
+    margin-left: 50px;
+}
+#aside{
+    display: block;
+    background-color: #eeee;
+    width: 30%;
+    height: 40%;
+    margin left: 5px;
+    margin-right: 150px;
+    float: right;
+    text-align: center;
+}
+#footer{
+    background-color: #4aaaa5;
+    color: #000000;
+    clear: both;
+    padding: 15px;
+    border: 10px;
+    border-color: #000000;
+    margin-top: 10px;
 }
