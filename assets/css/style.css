@@ -1,12 +1,4 @@
-#name{
-    background-color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 20px;
-    width: 20%;
-    text-align: center;
-    margin-left: 50px;
-    display: inline;
-}
+
 h2{
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
@@ -14,8 +6,11 @@ h2{
     margin: 0, auto;
 }
 img{
-    padding: 20px;
+    margin: 20px;
     float: left;
+    border-style: solid;
+    border-image: 
+    b
 }
 p{
     text-align: wrap;
@@ -23,6 +18,20 @@ p{
 }
 #body{
     margin: 20px;
+}
+#name{
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    margin-left: 50px;
+    display: inline;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    border-style: solid;
+    border-color: black;
 }
 #nav{
     display: block;
@@ -51,12 +60,13 @@ p{
     border-color: #000000;
     width: 30%;
     height: 40%;
-    margin left: 5px;
+    margin-left: 5px;
     margin-right: 150px;
     float: right;
     text-align: center;
 }
 #footer{
+    width: 100%;
     background-color: #4aaaa5;
     color: #000000;
     clear: both;
@@ -66,4 +76,7 @@ p{
     border-top-color: #000000;
     text-align: center;
     margin-top: 20px;
+}
+.center{
+    text-align: center;
 }
