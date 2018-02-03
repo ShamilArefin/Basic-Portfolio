@@ -34,7 +34,6 @@ p{
     border-color: black;
 }
 #nav{
-    display: block;
     background-color: rgb(255, 255, 255);
     border-color: #000000;
     clear: both;
@@ -52,6 +51,7 @@ p{
     border-style: solid;
     border-color: #000000;
     margin-left: 50px;
+    margin-bottom: 10px;
 }
 #aside{
     display: block;
@@ -79,4 +79,25 @@ p{
 }
 .center{
     text-align: center;
+}
+.link{
+    font-family: 'Dhurjati', sans-serif;
+}
+.cat1{
+    position: relative;
+}
+.cat2{
+    position: relative;
+}
+.cat3{
+    position: relative;
+}
+.cat4{
+    position: relative;
+}
+.cat5{
+    position: relative;
+}
+.text{
+    text-align: wrap;
 }
